@@ -1,0 +1,18 @@
+{
+  "name": "jeefo-jade-watcher",
+  "version": "0.0.0",
+  "description": "Jade watch for only changed files to compile.",
+  "main": "index.js",
+  "author": "je3f0o <je3f0o@gmail.com>",
+  "bin": "./bin/jeefo-jade-watcher",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:je3f0o/node-jeefo-jade-watcher.git"
+  },
+  "dependencies": {
+    "chokidar": "^1.2.0",
+    "jade": "^1.11.0",
+    "jeefo-getopt": "0.0.2"
+  },
+  "license": "MIT"
+}
